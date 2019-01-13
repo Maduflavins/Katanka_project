@@ -1,0 +1,48 @@
+Model/db fields
+
+##Listing
+id = INT
+realtor = INT(Foreign Key[realtor])
+title = Str
+address = Str
+zipcode = Str
+description = Text
+price = INT
+bedrooms = INT
+bathrooms = INT
+Garage = INT
+sqft = INT
+lot_size = INT
+is_published = Bool(True)
+list_date =DATE
+photo_main = Str
+photo_1 = str
+photo_2 = str
+photo_3 = Str
+photo_4 = str
+photo_5 = str
+photo_6 = str
+
+
+#Realtor
+id = INT
+name = STR
+photo = Str
+description = Text
+email = Str
+phone = Str
+is_mvp = BOOL[0]
+hire_date = Date
+
+
+
+#Contact
+id = Int
+user_id = Int
+listing= Int
+Listing_id = INT
+name = Str
+email = Str
+phone = Str
+message = text
+contact_date = Date
