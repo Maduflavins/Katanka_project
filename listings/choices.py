@@ -1,0 +1,67 @@
+bedroom_choices = {
+    '1':1,
+    '2':2,
+    '3':3,
+    '4':4,
+    '5':5,
+    '6':6,
+    '7':7,
+    '8':8,
+    '9':9,
+    '10':10
+}
+
+
+price_choices = {
+    '100000': 'NGN100,000',
+    '200000': 'NGN200,000',
+    '300000': 'NGN300,000',
+    '400000': 'NGN400,000',
+    '500000': 'NGN500,000',
+    '600000': 'NGN600,000',
+    '700000': 'NGN700,000',
+    '800000': 'NGN800,000',
+    '900000': 'NGN900,000',
+    '1000000':'NGN1M+',
+}
+
+state_choices = {
+    'AB': 'Abia',
+    'AD': 'Adamawa',
+    'AK': 'Akwa Ibom',
+    'AN': 'Anambra',
+    'BA': 'Bauchi',
+    'BY': 'Bayelsa',
+    'BE': 'Benue',
+    'BO': 'Borno',
+    'CR': 'Cross River',
+    'DE': 'Delta',
+    'EB': 'Ebonyi',
+    'ED': 'Edo',
+    'EK': 'Ekiti',
+    'EN': 'Enugu',
+    'FC': 'Abuja',
+    'GO': 'Gombe',
+    'IM': 'Imo',
+    'JI': 'Jigawa',
+    'KA': 'Kaduna',
+    'KA': 'Kano',
+    'Kt': 'Katsina',
+    'KE': 'Kebbi',
+    'KO': 'Kogi',
+    'KW': 'Kwara',
+    'LA': 'Lagos',
+    'NA': 'Nasarawa',
+    'NI': 'Niger',
+    'OG': 'Ogun',
+    'ON': 'Ondo',
+    'OS': 'Osun',
+    'OY': 'Oyo',
+    'PL': 'Plateau',
+    'RI': 'Rivers',
+    'SO':'Sokoto',
+    'TA':'Taraba',
+    'YO':'Yobe',
+    'ZA':'Zamfara'
+
+}
