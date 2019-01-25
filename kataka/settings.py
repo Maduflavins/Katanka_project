@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'listings.apps.ListingsConfig',
     'realtors.apps.RealtorsConfig',
     'accounts.apps.AccountsConfig',
+    'contacts.apps.ContactsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -140,5 +141,13 @@ MEDIA_URL = '/media/'
 
 from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
-    messages.ERROR: 'Error'
+    messages.ERROR: 'error'
 }
+
+#Email Configuration
+
+EMAIL_HOST = 'smtp.mail.yahoomail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'themanlahind@yahoo.com'
+EMAIL_USER_PASSWORD = '08063572194'
+EMAIL_USE_TLS = True
